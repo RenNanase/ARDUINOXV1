@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "219961597814",
+    "firebase_url": "https://arduinox-eb6b9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "arduinox-eb6b9",
+    "storage_bucket": "arduinox-eb6b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:219961597814:android:7402222c9965904e5b2457",
+        "android_client_info": {
+          "package_name": "com.example.fyp2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAES3JIUS5rjTav_FQUreq826gWonjIYSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

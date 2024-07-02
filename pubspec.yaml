@@ -1,0 +1,75 @@
+name: fyp2
+description: "A new Flutter project."
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  syncfusion_flutter_pdfviewer: ^23.2.7
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.13.6
+  youtube_player_flutter: ^8.1.2
+  flutter_inappwebview: ^5.7.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+
+flutter:
+  uses-material-design: true
+  assets:
+  - lib/images/loginrobot.png
+  - lib/images/pink.png
+  - lib/images/33.png
+  - lib/images/congrats.png
+  - lib/images/logo.png
+  - assets/images/login.png
+  - assets/images/register.png
+  - assets/images/welcomee.png
+  - lib/TinkerNotes/Tinkercad_circuit.pdf
+  - lib/TinkerNotes/intro_tinkercad.pdf
+  - lib/TinkerNotes/gsw_tinkercad.pdf
+  - lib/TinkerNotes/arduinoin_tinkercad.pdf
+  - lib/ArduinoNotes/what is arduino.pdf
+  - lib/ArduinoNotes/arduino_output.pdf
+  - lib/ArduinoNotes/arduino_input.pdf
+  - lib/ArduinoNotes/arduino_components.pdf
+  - lib/ArduinoNotes/arduinosyn.pdf
+  - lib/minip/minip1.pdf
+  - lib/minip/minip2.pdf
+
+
+  fonts:
+  - family: AnnieUseYourTelescope-Regular
+    fonts:
+      - asset: assets/fonts/AnnieUseYourTelescope-Regular.ttf
+
+  - family: Wkwk-2O988
+    fonts:
+      - asset: assets/fonts/Wkwk-2O988.otf
+
+
+  - family: BebasNeue-Regular
+    fonts:
+      - asset: assets/fonts/BebasNeue-Regular.ttf
+
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: "AppIcon"
+  image_path: "lib/images/icon.png"
+  min_sdk_android: 21
+  remove_alpha_ios: true
+
+
+
